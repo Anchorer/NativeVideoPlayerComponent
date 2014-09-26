@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 定义各种常用颜色 -->
+
+<resources>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="white_hover">#22FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="half_black">#88000000</color>
+    <color name="black_hover_low">#3A000000</color>
+    <color name="black_hover_hard">#4A000000</color>
+    <color name="green">#00FF00</color>
+    <color name="default_purple">#DB1C85</color>
+    <color name="default_red">#FC6A71</color>
+    <color name="default_bg">#ECEDF2</color>
+    <color name="default_divider">#C3C3C3</color>
+    <color name="default_title">#5E5E5E</color>
+    <color name="default_hint">#919191</color>
+
+    <color name="expert_detail_content">#797979</color>
+    <color name="expert_detail_hint">#919191</color>
+
+    <color name="fav_empty_text">#6A6A6A</color>
+    <color name="fav_list_info">#BBBBBB</color>
+    <color name="fav_list_delete">#999999</color>
+    <color name="fav_delete_divider">#9F9F9F</color>
+    <color name="fav_delete_bg">#333333</color>
+    <color name="fav_delete_text">#FF3748</color>
+    
+    <color name="home_list_btn_videocount">#88B4A76C</color>
+    <color name="home_list_btn_activity">#88EE5E63</color>
+
+    <color name="list_header_title">#666666</color>
+    <color name="list_header_subtitle">#999999</color>
+
+    <color name="main_drawer_text_unselected">#818285</color>
+    <color name="main_drawer_text_selected">#FF5A60</color>
+    <color name="main_drawer_account_bg">#88FFFFFF</color>
+    <color name="main_drawer_account_text">#B8B8B8</color>
+    <color name="main_drawer_account_divider">#D2D2D2</color>
+
+    <color name="setting_space_used">#DD3492</color>
+    <color name="setting_phone_space_left">#D4D4D4</color>
+    <color name="setting_space_spare">#A3A3A3</color>
+    <color name="setting_item">#646464</color>
+
+    <color name="share_window_bg">#F9FBFF</color>
+    <color name="share_text">#6A6A6A</color>
+
+    <color name="tab_bg">#333333</color>
+    <color name="tab_text_selected">#DB1C85</color>
+    <color name="tab_text_unselected">#DDDDDD</color>
+
+    <color name="video_list_title">#6A6A71</color>
+    <color name="video_list_hint">#A7A7A7</color>
+    
+    <color name="account_form_text">#CACACA</color>
+    <color name="account_login_qq_text">#535353</color>
+    <color name="account_login_qq_divider">#BFBFBF</color>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- 开始/暂停 -->
+    <ImageButton
+        android:id="@+id/video_native_media_controller_custom_btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/video_btn_start"
+        android:background="@android:color/transparent"/>
+    <RelativeLayout
+        android:id="@+id/video_native_media_controller_custom_controller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <!-- 当前时间 -->
+        <TextView
+            android:id="@+id/video_native_media_controller_custom_currenttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+        <!-- 取消全屏按钮 -->
+        <ImageButton
+            android:id="@+id/video_native_media_controller_custom_btn_unfullscreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/video_btn_unfullscreen"
+            android:background="@android:color/transparent"/>
+        <!-- 总时间 -->
+        <TextView
+            android:id="@+id/video_native_media_controller_custom_totaltime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/video_native_media_controller_custom_btn_unfullscreen"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+        <!-- 进度条 -->
+        <SeekBar
+            android:id="@+id/video_native_media_controller_custom_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/video_native_media_controller_custom_currenttime"
+            android:layout_toLeftOf="@id/video_native_media_controller_custom_totaltime"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:progressDrawable="@drawable/style_seekbar"
+            android:thumb="@null"/>
+    </RelativeLayout>
+</RelativeLayout>
